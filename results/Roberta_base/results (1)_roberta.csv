@@ -1,0 +1,11 @@
+,Seed,Learning Rate,Batch Size,Val CE,Val Accuracy,Val F1,Test CE,Test Accuracy,Test F1,Fine Tuning Time(m),Test Labeling Time(m),classification_report
+0,5768,1e-05,32,26.468488161380474,0.8551024428684003,0.8823848313187733,24.495500589118283,0.856012224268307,0.8910312159174372,16.61386035680771,0.3189107537269592,"              precision    recall  f1-score   support
+
+         LOC     0.3880    0.4931    0.4343       288
+         ORG     0.0937    0.4029    0.1521       551
+         PER     0.2020    0.4281    0.2745       285
+
+   micro avg     0.1456    0.4324    0.2178      1124
+   macro avg     0.2279    0.4413    0.2869      1124
+weighted avg     0.1966    0.4324    0.2554      1124
+"
